@@ -1,3 +1,10 @@
+import Counter from '@/app/study/counter';
+
 export default async function Page() {
-  return <p>Study Page</p>
+  return (
+    <div>
+      <p>Study Page</p>
+      <Counter />
+    </div>
+  )
 }
